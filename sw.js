@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.5.0/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.5.0"});
+importScripts("workbox-v3.6.3/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,34 +26,34 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-2f029cf4c539c78e5de5.js"
+    "url": "webpack-runtime-6b89cf30fc8bbc8fca84.js"
   },
   {
-    "url": "app-be5b95f2ecb473202fcd.js"
+    "url": "app-38761cb007e553dba463.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-632a50a46c9afc03ae2b.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-a1db31afa63d13cc6880.js"
   },
   {
     "url": "index.html",
-    "revision": "bd9f1f107a49c4a992422f6c0f88a836"
+    "revision": "f5dcce6b8755e15fcdda913237f9be86"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "f0e823e707f3e6ae353a199fa1cb34f2"
+    "revision": "07f6ad8fc234aa00b9982987f7ac6b7d"
   },
   {
-    "url": "0-f0dfe50ea2d0fca2cf9b.js"
+    "url": "0-0488d11fdf5fd02e660c.js"
   },
   {
-    "url": "component---src-templates-index-js-fd10334d9bb6946d789c.js"
+    "url": "component---src-templates-index-js-b1b8a5b8a315dba30294.js"
   },
   {
-    "url": "static/d/166/path---index-6a9-4ESTbP1Ibn6YP2Fj8rs5bb9Pbk.json",
-    "revision": "f1c7bbcfcdb29453c3373ede0258ee19"
+    "url": "static/d/432/path---index-6a9-ik0vsFtoTv6RDDaKOgVJ6ggqFvE.json",
+    "revision": "05b376bed65a514228756409f761c4cf"
   },
   {
-    "url": "component---src-pages-404-js-cac8e9a59dba1e1613dc.js"
+    "url": "component---src-pages-404-js-895f6b0d6e7f3f28a93a.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -65,11 +65,11 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.json",
-    "revision": "57d01dabcd6cdfd50dbacdefe6c15454"
+    "revision": "cd497b3f71e0475d7720469427b3f268"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "af1fa3c13c6ede516cdf7794f1df8960"
+    "revision": "2f74e66b62419b268f9ee77b96377cde"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
